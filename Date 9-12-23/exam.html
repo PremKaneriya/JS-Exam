@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="exam.css">
+</head>
+<body>
+    <h1>Dental Care</h1>
+    
+    <form action="" onchange="treatMent()">
+        <label for="">Find Your Treatment</label>
+        <select name="" id="selectTreatment">
+            <option value="0">-- Select --</option>
+            <option value="RTC">RTC</option>
+            <option value="Root Canal">Root Canal</option>
+            <option value="Teeth Cleaning">Teeth Cleaning</option>
+            <option value="Teeth Removing">Teeth Removing</option>
+        </select>
+    </form>
+
+    <div id="displayResult">
+
+    </div>
+
+    <!-- -------- Second Part --------- -->
+
+    <form action="" id="hideForaWhile">
+        <label for="">Select Your Date</label>
+        <select name="" id="selectDate">
+            <option value="0">-- Select Date --</option>
+            <option value="15 - 12 - 23">15 - 12 - 23</option>
+            <option value="16 - 12 - 23">16 - 12 - 23</option>
+            <option value="17 - 12 - 23">17 - 12 - 23</option>
+            <option value="18 - 12 - 23">18 - 12 - 23</option>
+        </select>
+        <br>
+        <button onclick="selectYourDate()">Book Now</button>
+    </form>
+
+    <div id="displayDate">
+
+    </div>
+
+
+    <script src="exam.js"></script>
+</body>
+</html>

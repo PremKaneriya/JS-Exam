@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav {
+    height: 70px;
+    width: 100%;
+    background-color: skyblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav button {
+    margin: 8px;
+}
+
+nav h1 {
+    font-size: 30px;
+    padding: 14px 30px;
+}
+
+#form {
+    /* width: 30%; */
+    margin: 10px auto;
+    padding: 70px;
+}
+
+input {
+    margin-top: 20px;
+    height: 50px;
+    width: 280px;
+    padding: 0 20px;
+    border: 2px solid lightgreen;
+    font-size: 18px;
+}
+
+#answer {
+    border: 1px solid;
+}
+
+#button {
+    margin-top: 20px;
+    padding: 8px 23px;
+    font-size: 18px;
+    border-radius: 20px;
+    background-color: lightgreen;   
+    outline: none;
+    border: none;
+    transition: all ease 0.2s;
+}
+
+#button:hover {
+    background-color: rgb(78, 211, 78);
+} 
+
+#button:active {
+    /* padding: 6px 18px; */
+    scale: 1.2;
+}
+
+#result {
+    margin-top: 20px;
+    height: 50px;
+    width: 280px;
+    padding: 10px 20px;
+    border: 2px solid lightgreen;
+    font-size: 18px;
+} 

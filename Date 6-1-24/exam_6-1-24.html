@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exam_6-1-24</title>
+</head>
+
+<body>
+
+    <div id="main">
+        <form action="" id="employeeForm">
+            <input type="text" id="empName" placeholder="Enter Name">
+            <br><br>
+            <input type="number" id="empNum" placeholder="Enter Number">
+            <br><br>
+            <input type="submit">
+        </form>
+
+        <div id="displayLocalStorage"></div>
+    </div>
+
+    <input type="search" onkeyup="handleSearch()" placeholder="Search Data" id="handleSearch">
+
+
+    <script src="exam_6-1-24.js"></script>
+</body>
+<style>
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 50px;
+    }
+
+    #displayLocalStorage {
+        margin-top: 20px;
+    }
+
+    #handleSearch {
+        padding: 10px 20px;
+    }
+</style>
+
+</html>
